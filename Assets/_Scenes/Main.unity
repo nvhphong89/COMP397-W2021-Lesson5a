@@ -853,7 +853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1132368144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1329,6 +1329,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1135902842636198127, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135902842636198127, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984934879593769908, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 963194228}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
 --- !u!1 &1825825015
@@ -1645,21 +1657,9 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2067001262}
-    - target: {fileID: 1135902841899004593, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
-      propertyPath: m_StoppingDistance
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1135902841899004598, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
       propertyPath: m_RootOrder
       value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1135902841899004598, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1135902841899004598, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1135902841899004598, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1701,6 +1701,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1135902842185909512, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 963194227}
+    - target: {fileID: 1135902842636198127, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135902842636198127, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5984934879593769908, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 963194228}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d06e83fd3dc4dbf4789c3883fb90d488, type: 3}
 --- !u!1001 &5933081819316198966
